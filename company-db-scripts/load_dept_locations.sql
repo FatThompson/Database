@@ -1,0 +1,1 @@
+Load Data Local Infile "data__dept_locations.dat" into table dept_locations Fields enclosed by "\'" Terminated by ",";

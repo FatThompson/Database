@@ -1,0 +1,1 @@
+Load Data Local Infile "data__works_on.dat" into table works_on Fields enclosed by "\'" Terminated by ",";

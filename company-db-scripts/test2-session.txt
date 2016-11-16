@@ -1,0 +1,37 @@
++----------------+-----------+
+| dname          | dlocation |
++----------------+-----------+
+| Administration | Stafford  |
+| Headquarters   | Houston   |
+| Research       | Sugarland |
+| Research       | Houston   |
+| Research       | Bellaire  |
++----------------+-----------+
+5 rows in set (0.00 sec)
+
++----------+---------+
+| fname    | lname   |
++----------+---------+
+| John     | Smith   |
+| Franklin | Wong    |
+| James    | Borg    |
+| Jennifer | Wallace |
++----------+---------+
+4 rows in set (0.00 sec)
+
++-----------+-------+
+| essn      | hours |
++-----------+-------+
+| 123456789 |  32.5 |
+| 453453453 |  99.9 |
+| 666884444 |  40.0 |
+| 987987987 |  35.0 |
+| 999887777 |  30.0 |
++-----------+-------+
+5 rows in set (0.00 sec)
+
+Query OK, 2 rows affected (0.01 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+Query OK, 3 rows affected (0.01 sec)
+

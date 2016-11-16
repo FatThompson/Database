@@ -1,0 +1,2 @@
+ESSN_WORKSON_PROJECT1_PROJECT2 = pi Essn ((g project=1 (WORKS_ON)) Union (g project=2 (WORKS_ON)))
+ESSN_WORKSON_PROJECT3_PROJECT30 = pi Essn ((g project=3 (WORKS_ON)) Intersect (g project=30 (WORKS_ON)))

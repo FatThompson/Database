@@ -1,0 +1,13 @@
+Tables are called relations
+	
+ssn is uique
+tuples are rows
+keys are unique 
+	can be ore than one arrtobute
+
+
+operations
+	SELECT
+		Gives a subest of tuples based on conditions
+
+

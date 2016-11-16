@@ -1,0 +1,1 @@
+Load Data Local Infile "data__dependents.dat" into table dependents Fields enclosed by "\'" Terminated by ",";

@@ -1,0 +1,1 @@
+Insert into customer values (555337777,'John T. Smith','764 Pine St., Dallas, TX','1967-01-09');

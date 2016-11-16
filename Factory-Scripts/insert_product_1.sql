@@ -1,0 +1,1 @@
+INSERT INTO product value('p-101a','Computer Monitor',12,50.00);
