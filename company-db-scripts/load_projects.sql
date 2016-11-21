@@ -1,1 +1,1 @@
-Load Data Local Infile "data__projects.dat" into table projects Fields enclosed by "\'" Terminated by ",";
+Load Data Local Infile "data__project.dat" into table project Fields enclosed by "\'" Terminated by ",";

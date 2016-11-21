@@ -1,14 +1,14 @@
 /*
 SELECT COUNT(*)
-    FROM employees, departments 
+    FROM employee, department 
     WHERE dno=dnumber 
         AND dname='Research'
 ;
 
 */
 /*
-SELECT COUNT(ssn) AS Number_of_Employees
-    FROM employees, departments 
+SELECT COUNT(ssn) AS Number_of_employee
+    FROM employee, department 
     WHERE dno=dnumber 
         AND dname='Research'
 ;

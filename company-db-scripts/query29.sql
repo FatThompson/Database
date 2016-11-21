@@ -1,4 +1,4 @@
-/*Retrieve the social security numbers of all employees who either work in department 5 or directly supervise an
+/*Retrieve the social security numbers of all employee who either work in department 5 or directly supervise an
 employee who works in department 5*/
 
 (

@@ -2,7 +2,7 @@
 */
 
 INSERT INTO 
-    employees (
+    employee (
         fname,minit,lname,
         ssn,bdate,address,sex,salary,super_ssn
     ) VALUES(
@@ -13,7 +13,7 @@ INSERT INTO
     
 
 INSERT INTO 
-    departments (
+    department (
         dname,dnumber,mgr_start_date
     ) VALUES (
         'Human Resources',6,'2004-10-07'

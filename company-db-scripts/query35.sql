@@ -3,15 +3,15 @@ all employess who have a daughter but do
 not work on a project in stanford.
 */
 SELECT fname,lname
-FROM employees, dependents
+FROM employee, dependent
 WHERE 
-    dependents.relationship="Daughter"
+    dependent.relationship="Daughter"
     AND ssn=essn
     AND ssn NOT IN (
         SELECT Essn
-        FROM works_on, projects
-        WHERE projects.plocation='Stafford'
-            AND works_on.pno=projects.pnumber
+        FROM works_on, project
+        WHERE project.plocation='Stafford'
+            AND works_on.pno=project.pnumber
     )
     
 ;

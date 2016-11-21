@@ -1,6 +1,6 @@
 DELETE from dept_locations
     WHERE dnumber IN (
         SELECT dnumber 
-            FROM departments
+            FROM department
             WHERE dname='Research'
     );

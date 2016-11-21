@@ -1,8 +1,8 @@
 DELETE 
-    FROM departments
+    FROM department
     WHERE dnumber IN(
         SELECT dnum 
-            FROM projects
+            FROM project
             WHERE pLocation='stafford'
     );
     

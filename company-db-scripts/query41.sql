@@ -1,3 +1,3 @@
-DELETE FROM employees
+DELETE FROM employee
 WHERE ssn=333445555;
-select * from employees;
+select * from employee;

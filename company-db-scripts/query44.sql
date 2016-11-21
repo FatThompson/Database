@@ -9,8 +9,8 @@ enable logging of the sessions
 use \T to disable logging
 
 */
-drop table employees_backup;
-Create table employees_backup(
+drop table employee_backup;
+Create table employee_backup(
 	/*Feildname, varlength 15*/
 	Fname Varchar(25) not NULL,
     Minit Varchar(1)not NULL,
@@ -25,8 +25,8 @@ Create table employees_backup(
     Primary key(ssn)
 );
 
-INSERT INTO employees_backup (SELECT * FROM employees);
+INSERT INTO employee_backup (SELECT * FROM employee);
 
-SELECT * FROM employees_backup;
+SELECT * FROM employee_backup;
 \T;
 \t;

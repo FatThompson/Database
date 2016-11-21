@@ -2,5 +2,5 @@
 
 
 SELECT Dname, DLocation
-FROM Departments, Dept_Locations
-WHERE Departments.Dnumber = Dept_Locations.Dnumber;
+FROM department, Dept_Locations
+WHERE department.Dnumber = Dept_Locations.Dnumber;

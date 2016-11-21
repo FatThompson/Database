@@ -1,4 +1,4 @@
-/*Retrieve all project names for projects that involve an employee whose last name is
+/*Retrieve all project names for project that involve an employee whose last name is
 Wallace as a worker or last name is Wallace as a manager of the department that controls the project.*/
 
 (

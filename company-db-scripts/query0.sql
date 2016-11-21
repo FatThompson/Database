@@ -1,4 +1,4 @@
 SELECT * 
-FROM departments, dependents, 
-     dept_locations, employees,
-     projects, works_on;
+FROM department, dependent, 
+     dept_locations, employee,
+     project, works_on;

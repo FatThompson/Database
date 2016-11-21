@@ -1,2 +1,2 @@
-DELETE FROM projects 
+DELETE FROM project 
 WHERE dnum=5;

@@ -1,4 +1,4 @@
-/*Retrieve the project numbers of projects located at Houston.*/
+/*Retrieve the project numbers of project located at Houston.*/
 SELECT Pnumber 
-FROM projects
+FROM project
 WHERE Plocation="HOUSTON";

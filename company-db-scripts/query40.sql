@@ -1,12 +1,12 @@
 /*
-ALTER TABLE employees CHANGE super_ssn super_ssn INTEGER;
+ALTER TABLE employee CHANGE super_ssn super_ssn INTEGER;
 */
-ALTER TABLE employees 
+ALTER TABLE employee 
     ADD FOREIGN KEY(super_ssn) 
-        REFERENCES employees(ssn)
+        REFERENCES employee(ssn)
     ON DELETE SET NULL;
 
-ALTER TABLE departments 
+ALTER TABLE department 
     ADD FOREIGN KEY(mgr_ssn) 
-        REFERENCES employees(ssn)     
+        REFERENCES employee(ssn)     
     ON DELETE SET NULL;

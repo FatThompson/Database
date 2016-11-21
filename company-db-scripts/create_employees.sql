@@ -1,4 +1,4 @@
-Create table employees(
+Create table employee(
 	/*Feildname, varlength 15*/
 	Fname Varchar(25),
     Minit Varchar(1),

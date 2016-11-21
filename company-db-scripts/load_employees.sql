@@ -1,1 +1,1 @@
-Load Data Local Infile "data__employees.dat" into table employees Fields enclosed by "\'" Terminated by ",";
+Load Data Local Infile "data__employee.dat" into table employee Fields enclosed by "\'" Terminated by ",";

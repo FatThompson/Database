@@ -1,1 +1,1 @@
-Load Data Local Infile "data__dependents.dat" into table dependents Fields enclosed by "\'" Terminated by ",";
+Load Data Local Infile "data__dependent.dat" into table dependent Fields enclosed by "\'" Terminated by ",";

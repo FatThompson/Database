@@ -1,4 +1,4 @@
-/*For all employees who work on project ProductX, increase their hours by 10. Run the query.
+/*For all employee who work on project ProductX, increase their hours by 10. Run the query.
 THen restore the updated fields to their original values using another Update statement. */
 
 Update Works_on

@@ -1,4 +1,4 @@
-DELETE FROM projects, works_on
-USING projects JOIN works_on
+DELETE FROM project, works_on
+USING project JOIN works_on
 WHERE pname="ProductX"
     AND pno=pnumber;

@@ -1,7 +1,7 @@
 /* Use of aggregated functions sum, min, max, avg
 
 retrieve the maximum asalary, min salary, avg salary 
-and the total salary of all employees
+and the total salary of all employee
  */ 
  
 SELECT 
@@ -10,5 +10,5 @@ SELECT
     ROUND(AVG(salary), 2) AS avg_salary,
     SUM(salary) AS total_salary
 
-    FROM employees;
+    FROM employee;
  

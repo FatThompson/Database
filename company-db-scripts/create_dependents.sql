@@ -1,4 +1,4 @@
-create table dependents(
+create table dependent(
     Essn Integer not NULL,
     Dependent_name Varchar(15),
     Sex Varchar(1),

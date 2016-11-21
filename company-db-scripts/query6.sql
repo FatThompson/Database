@@ -1,4 +1,4 @@
-/* Retrieve social security numbers of employees that work on projects. */
+/* Retrieve social security numbers of employee that work on project. */
 
 Select distinct essn
 #distinct removes duplicate values.

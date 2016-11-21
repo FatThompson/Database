@@ -1,3 +1,3 @@
 SELECT Ssn, Dno, Dname
-FROM employees, departments
+FROM employee, department
 WHERE Dno=Dnumber;

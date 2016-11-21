@@ -4,12 +4,12 @@
 
 ( 
     SELECT fname,lname
-    FROM departments, employees,dept_locations
+    FROM department, employee,dept_locations
     WHERE mgr_ssn = ssn 
-        AND departments.dnumber=dept_locations.dnumber
+        AND department.dnumber=dept_locations.dnumber
         AND dept_locations.dlocation="Bellaire"
 )UNION(
     SELECT fname,lname
-    FROM dependents, employees
+    FROM dependent, employee
     WHERE essn = ssn
 );

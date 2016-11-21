@@ -1,4 +1,4 @@
 SELECT ssn, fname, minit, lname
-FROM dependents as d, employees as e
+FROM dependent as d, employee as e
 WHERE d.Essn = e.Ssn 
   AND e.Dno = "4"

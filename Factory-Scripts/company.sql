@@ -1,4 +1,4 @@
-SELECT employees.ssn, employees.fname 
-FROM employees, dependents
-WHERE dependents.essn=employees.ssn 
-AND employees.fname=dependents.name;
+SELECT employee.ssn, employee.fname 
+FROM employee, dependent
+WHERE dependent.essn=employee.ssn 
+AND employee.fname=dependent.name;

@@ -1,7 +1,7 @@
 /*
-2. Retrieve the first name and last name of employees 
+2. Retrieve the first name and last name of employee 
 who live in TX.
 */
 SELECT fname,lname
-FROM employees
-WHERE employees.address LIKE "%, TX"
+FROM employee
+WHERE employee.address LIKE "%, TX"

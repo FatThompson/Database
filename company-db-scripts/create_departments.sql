@@ -1,4 +1,4 @@
-Create table departments(
+Create table department(
 	/*Feildname, varlength 15*/
 	Dname Varchar(15),
 	Dnumber Integer,

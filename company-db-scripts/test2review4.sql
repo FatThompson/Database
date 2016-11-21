@@ -1,9 +1,9 @@
 /*
-increase the salary for employees in the 
-Computerazation and have dependents
+increase the salary for employee in the 
+Computerazation and have dependent
 */
-UPDATE employees
+UPDATE employee
     SET salary = salary * 1.075
     WHERE SSN in (
-        SELECT ssn from dependents
+        SELECT ssn from dependent
         );

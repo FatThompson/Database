@@ -1,4 +1,4 @@
-create table projects(
+create table project(
     Pname Varchar(25),
     Pnumber Integer,
     Plocation Varchar(25),

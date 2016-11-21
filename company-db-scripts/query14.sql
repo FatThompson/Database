@@ -1,4 +1,4 @@
 SELECT DISTINCT pname
-FROM dependents as d, works_on as w, projects as p
+FROM dependent as d, works_on as w, project as p
 WHERE d.essn = w.essn
     AND w.pno = p.pnumber

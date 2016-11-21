@@ -1,4 +1,4 @@
-/*Delete the records from the employee table of employees from the research repartment. 
+/*Delete the records from the employee table of employee from the research repartment. 
 Run the query and then delete all remaining records from the command line or terminal. 
 Re-enter all employee records in the employee table.*/
 

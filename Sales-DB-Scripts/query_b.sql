@@ -1,10 +1,10 @@
 /*Retrieve the first name and last name of all 
-  employees who work on a project located in
+  employee who work on a project located in
   Houston and have daughters*/
 SELECT DISTINCT fname,lname
-FROM employees,projects,works_on,dependents
+FROM employee,project,works_on,dependent
 WHERE ssn=works_on.essn 
-  AND works_on.pno=projects.pnumber
-  AND projects.plocation="Houston"
-  AND ssn=dependents.essn
-  AND dependents.relationship="Daughter";
+  AND works_on.pno=project.pnumber
+  AND project.plocation="Houston"
+  AND ssn=dependent.essn
+  AND dependent.relationship="Daughter";

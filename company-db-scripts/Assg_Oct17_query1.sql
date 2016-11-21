@@ -1,12 +1,12 @@
 /* 
-Retrieve the departments names 
-and projects names each departments controls.
+Retrieve the department names 
+and project names each department controls.
 the output should be sorted alphabetically 
-in descending order by the departments name 
-and within each departments sorted alphebetically 
-in ascending order by the projects name.
+in descending order by the department name 
+and within each department sorted alphebetically 
+in ascending order by the project name.
 */
 SELECT dname,pname
-FROM departments,projects
-WHERE departments.dnumber = projects.dnum
+FROM department,project
+WHERE department.dnumber = project.dnum
 ORDER BY dname DESC, pname ASC

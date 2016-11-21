@@ -1,6 +1,6 @@
-DELETE FROM projects
-WHERE projects.dnum IN (
+DELETE FROM project
+WHERE project.dnum IN (
     SELECT dnumber
-    FROM departments
-    WHERE departments.dname='Administration'
+    FROM department
+    WHERE department.dname='Administration'
 );

@@ -1,12 +1,12 @@
 /*
 EXAMPLE OF DIFFERENCE 
 
-retrieve the SSN of employees who have no dependents
+retrieve the SSN of employee who have no dependent
 */
 
 SELECT ssn
-FROM employees
+FROM employee
 WHERE 
     ssn NOT IN (
-        SELECT essn FROM dependents
+        SELECT essn FROM dependent
     );

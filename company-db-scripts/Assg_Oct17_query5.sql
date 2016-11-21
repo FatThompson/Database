@@ -1,15 +1,15 @@
 /*
 Retrieve the social security number, 
-first name and last name of all employees 
+first name and last name of all employee 
 who work in a department which has a 
 location in 'Sugarland' but do not have spouses.
 */
 
 SELECT ssn, fname, lname 
-FROM employees, dept_locations
+FROM employee, dept_locations
 WHERE dlocation='Sugarland'
     AND ssn NOT IN (
         SELECT essn
-        FROM dependents
+        FROM dependent
         WHERE relationship='Spouse'
     );

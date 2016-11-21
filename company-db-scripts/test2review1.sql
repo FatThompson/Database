@@ -2,7 +2,7 @@
 
 */
 SELECT fname,lname,dependent_name,relationship
-    FROM employees,dependents
+    FROM employee,dependent
     WHERE ssn=essn
     ORDER BY 
         lname ASC,

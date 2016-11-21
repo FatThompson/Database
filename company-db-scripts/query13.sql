@@ -1,4 +1,4 @@
 SELECT * 
-FROM employees as e, departments as d
+FROM employee as e, department as d
 WHERE e.Dno = d.dnumber
   AND d.dname="Research"
